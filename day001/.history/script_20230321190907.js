@@ -10,18 +10,13 @@ const counter = () => {
 
 	sub.addEventListener('click', () => {
 		count--
-		update()
 	})
 
 	add.addEventListener('click', () => {
 		count++
-		update()
 	})
 
 	reset.addEventListener('click', () => {
 		count = 0
-		update()
 	})
 }
-
-counter()

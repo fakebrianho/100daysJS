@@ -23,5 +23,3 @@ const counter = () => {
 		update()
 	})
 }
-
-counter()
