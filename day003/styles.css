@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+:root {
+	--white: #fff;
+	--black: #1c2b2d;
+	--blue: #31326f;
+	--light-blue: #005490;
+	--color-primary: #9d0191;
+	--color-sec: #db6400;
+	--grey: #eee;
+	--dark-grey: #222831;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 24px;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+p {
+	font-size: 1.6rem;
+	line-height: 1.5;
+}
+
+img {
+	width: 100%;
+}
+
+main {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+.container {
+	width: 70%;
+	max-width: 900px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 0 auto;
+	padding: 0 20px;
+	background-color: var(--light-blue);
+}
+
+.generate {
+	background-color: var(--grey);
+	color: black;
+	padding: 6px;
+	margin-bottom: 8px;
+}
+
+.number {
+	box-sizing: border-box;
+	/* border-color: white; */
+	/* border-style: solid; */
+	padding: 4px;
+	border-radius: 3px;
+	border: 1px solid rgba(255, 255, 255, 0.7);
+	/* border: 2px; */
+}
+
+.divider {
+	background-color: white;
+	margin: 8px 0px;
+	width: 80%;
+	opacity: 80%;
+	height: 1px;
+}
